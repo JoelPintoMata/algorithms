@@ -1,6 +1,6 @@
-package com.company.bfs;
+package com.company.graph.bfs;
 
-public class Main {
+public class GraphBFS {
 
     public static void main(String[] args) {
 	// write your code here
