@@ -1,11 +1,15 @@
 package com.company.sort.quicksort;
 
+import java.util.Arrays;
+
 public class QuickSort {
     
     public static void main(String a[]){
         int num[] = {34,5,78,2,45,1,99,23};
 
         sort(num);
+
+        Arrays.stream(num).forEach(x -> System.out.println(x));
     }
 
     private static void sort(int[] num) {

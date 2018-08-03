@@ -1,15 +1,18 @@
 package com.company.sort.bubblesort;
 
+import java.util.Arrays;
+
 public class BubbleSort {
     
     public static void main(String a[]){
         int num[] = {34,5,78,2,45,1,99,23};
 
         sort(num, 0, num.length-1);
+
+        Arrays.stream(num).forEach(x -> System.out.println(x));
     }
 
     private static void sort(int[] num, int min, int max) {
-        System.out.println("min " + min + " max " + max);
         int pivot = num[min+(max-min)/2];
 
         int i = min;

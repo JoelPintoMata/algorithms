@@ -1,7 +1,5 @@
-package com.company;
+package com.company.others;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
