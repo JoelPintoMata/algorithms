@@ -1,4 +1,4 @@
-package com.company.bfs;
+package com.company.tree;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
