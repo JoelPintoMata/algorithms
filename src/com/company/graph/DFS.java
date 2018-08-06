@@ -1,44 +1,38 @@
 package com.company.graph;
 
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class BFS {
+public class DFS {
 
     public static void main(String[] args) {
         Graph g = new Graph(4);
-        g.addEdge(0, 1);
         g.addEdge(0, 2);
         g.addEdge(1, 2);
         g.addEdge(2, 0);
         g.addEdge(2, 3);
         g.addEdge(3, 3);
-//
-        System.out.println("Following is Breadth First Traversal (starting from vertex 2)");
-        g.BFS(2);
+
+        g.DFS(2);
     }
 
     private static class Graph {
-        private int[][] graphArray;
-        private int[] graphVisitedArray;
+        private final int[][] graphArray;
+        private final int[] graphVisitedArray;
+        private Queue<Integer> graphQueue = new PriorityQueue<>();
 
         public Graph(int i) {
             graphArray = new int[i][i];
+            Arrays.stream(graphArray).forEach(line -> Arrays.stream(line).forEach(cell -> cell = -1));
+
             graphVisitedArray = new int[i];
-            for (int indexI = 0; indexI < i; indexI++) {
-                for (int indexJ = 0; indexJ < i; indexJ++) {
-                    graphArray[indexI][indexJ] = -1;
-                }
-                graphVisitedArray[indexI] = -1;
-            }
+            Arrays.stream(graphVisitedArray).forEach(cell -> cell = -1);
         }
 
         public void addEdge(int i, int j) {
             graphArray[i][j] = 1;
         }
 
-        public void BFS(int i) {
+        public void DFS(int i) {
             List<Integer> listHelper = new ArrayList<>();
             BFSHelper(i, listHelper);
         }
@@ -50,6 +44,8 @@ public class BFS {
 
 //            get node i childs
             List<Integer> childs = getChilds(i);
+
+            graphQueue.addAll(childs);
             for (int j = 0; j < childs.size(); j++) {
                 BFSHelper(childs.get(j), listHelper);
             }
@@ -69,8 +65,3 @@ public class BFS {
         }
     }
 }
-
-// -1 -1 -1 -1
-// -1 -1 -1 -1
-// -1 -1 -1 -1
-// -1 -1 -1 -1
