@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * As in https://www.interviewcake.com/question/java/cake-thief
  */
-public class CakeThief {
+public class CakeThiefBruteForce {
 
     static List<CakeType> bagType1 = new ArrayList<CakeType>();
     static List<CakeType> bagType2 = new ArrayList<CakeType>();
@@ -36,9 +36,8 @@ public class CakeThief {
         for (int i = 0; i < capacity; i++) {
             for (int j = 0; j < capacity; j++) {
                 for (int k = 0; k < capacity; k++) {
-                    testMax(cakeTypes, bagType1, bagType2, bagType3, capacity);
-
                     bagType3.add(cakeTypes[2]);
+                    testMax(cakeTypes, bagType1, bagType2, bagType3, capacity);
                 }
                 bagType3 = new ArrayList<>();
                 testMax(cakeTypes, bagType1, bagType2, bagType3, capacity);
@@ -79,15 +78,15 @@ public class CakeThief {
             }
         }
     }
-}
 
-class CakeType {
+    static class CakeType {
 
-    int weight;
-    int value;
+        int weight;
+        int value;
 
-    public CakeType(int weight, int value) {
-        this.weight = weight;
-        this.value = value;
+        public CakeType(int weight, int value) {
+            this.weight = weight;
+            this.value = value;
+        }
     }
 }
