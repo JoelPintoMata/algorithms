@@ -2,7 +2,7 @@ package com.company.sort.quicksort;
 
 import java.util.Arrays;
 
-public class QuickSort {
+public class QuickSort1 {
     
     public static void main(String a[]){
         int num[] = {34,5,78,2,45,1,99,23};

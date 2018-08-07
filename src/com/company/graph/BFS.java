@@ -1,8 +1,9 @@
 package com.company.graph;
 
-
 import java.util.ArrayList;
 import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class BFS {
 
@@ -14,24 +15,18 @@ public class BFS {
         g.addEdge(2, 0);
         g.addEdge(2, 3);
         g.addEdge(3, 3);
-//
-        System.out.println("Following is Breadth First Traversal (starting from vertex 2)");
+
         g.BFS(2);
     }
 
     private static class Graph {
-        private int[][] graphArray;
-        private int[] graphVisitedArray;
+        private final int[][] graphArray;
+        private final int[] graphVisitedArray;
+        private Queue<Integer> graphQueue = new PriorityQueue<>();
 
         public Graph(int i) {
             graphArray = new int[i][i];
             graphVisitedArray = new int[i];
-            for (int indexI = 0; indexI < i; indexI++) {
-                for (int indexJ = 0; indexJ < i; indexJ++) {
-                    graphArray[indexI][indexJ] = -1;
-                }
-                graphVisitedArray[indexI] = -1;
-            }
         }
 
         public void addEdge(int i, int j) {
@@ -39,19 +34,15 @@ public class BFS {
         }
 
         public void BFS(int i) {
-            List<Integer> listHelper = new ArrayList<>();
-            BFSHelper(i, listHelper);
+            BFSHelper(i);
         }
 
-        private void BFSHelper(int i, List<Integer> listHelper) {
-            listHelper.add(i);
-            System.out.println("Added child: " + i);
-            visited(i);
-
-//            get node i childs
-            List<Integer> childs = getChilds(i);
-            for (int j = 0; j < childs.size(); j++) {
-                BFSHelper(childs.get(j), listHelper);
+        private void BFSHelper(int i) {
+            graphQueue.add(i);
+            Integer node;
+            while ((node = graphQueue.poll()) != null) {
+                visited(node);
+                graphQueue.addAll(getChilds(node));
             }
         }
 
@@ -62,15 +53,10 @@ public class BFS {
         private List<Integer> getChilds(int i) {
             List<Integer> listHelper = new ArrayList<>();
             for (int j = 0; j < this.graphArray.length; j++) {
-                if (graphArray[i][j] != -1 && graphVisitedArray[j] == -1)
+                if (graphArray[i][j] != 0 && graphVisitedArray[j] == 0)
                     listHelper.add(j);
             }
             return listHelper;
         }
     }
 }
-
-// -1 -1 -1 -1
-// -1 -1 -1 -1
-// -1 -1 -1 -1
-// -1 -1 -1 -1
