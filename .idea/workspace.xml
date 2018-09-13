@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="code refactoring">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/graph/WordMorph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/others/LevenshteinDistance.java" afterDir="false" />
+    <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/fibonacci/FibonacciDynamicCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/fibonacci/FibonacciRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/others/PrintXmasTreeDynamicCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/fibonacci/Fibonacci.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,38 +71,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="4" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1482" />
+          <entry key="java" value="2008" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1482" />
+          <entry key="JAVA" value="2008" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/tree/DFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,18 +107,62 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/others/LevenshteinDistance.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/graph/WordMorph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/fibonacci/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="48" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/fibonacci/FibonacciDynamicCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/fibonacci/FibonacciRecursive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/graph/WordMorph.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/others/PrintXmasTreeDynamicCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,39 +188,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/others/FirstWordNotRepeatedInStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/others/Josephus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/sort/quicksort/QuickSort1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -222,7 +225,6 @@
         <option value="$PROJECT_DIR$/src/com/company/bfs/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/com/company/sort/bubblesort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/com/company/others/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/com/company/graph/bfs/GraphBFS.java" />
         <option value="$PROJECT_DIR$/src/com/company/graph/bfs/BFSTraversal.java" />
         <option value="$PROJECT_DIR$/src/com/company/bfs/BFSTraversal.java" />
@@ -255,6 +257,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/company/others/LevenshteinDistance.java" />
         <option value="$PROJECT_DIR$/src/com/company/graph/WordMorph.java" />
+        <option value="$PROJECT_DIR$/src/com/company/others/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/com/company/fibonacci/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/com/company/fibonacci/FibonacciDynamicCache.java" />
+        <option value="$PROJECT_DIR$/src/com/company/fibonacci/FibonacciRecursive.java" />
+        <option value="$PROJECT_DIR$/src/com/company/fibonacci/PrintXmasTreeDynamicCache.java" />
+        <option value="$PROJECT_DIR$/src/com/company/others/PrintXmasTreeDynamicCache.java" />
       </list>
     </option>
   </component>
@@ -287,6 +295,13 @@
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="fibonacci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -332,15 +347,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company/others" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.fibonacci" />
       <recent name="com.company.others" />
       <recent name="com.company.graphs" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/company/others" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,9 +371,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordMorph">
-    <configuration name="FunctionalProgrammingStringExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.others.FunctionalProgrammingStringExercises" />
+  <component name="RunManager" selected="Application.PrintXmasTreeDynamicCache">
+    <configuration name="FibonacciDynamicCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.fibonacci.FibonacciDynamicCache" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -369,8 +385,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.others.Josephus" />
+    <configuration name="FibonacciRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.fibonacci.FibonacciRecursive" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -382,8 +398,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.others.MissingNumber" />
+    <configuration name="PrintXmasTreeDynamicCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.others.PrintXmasTreeDynamicCache" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -422,19 +438,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FunctionalProgrammingStringExercises" />
-      <item itemvalue="Application.MissingNumber" />
-      <item itemvalue="Application.Josephus" />
       <item itemvalue="Application.Questions" />
       <item itemvalue="Application.WordMorph" />
+      <item itemvalue="Application.FibonacciDynamicCache" />
+      <item itemvalue="Application.FibonacciRecursive" />
+      <item itemvalue="Application.PrintXmasTreeDynamicCache" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintXmasTreeDynamicCache" />
+        <item itemvalue="Application.FibonacciRecursive" />
+        <item itemvalue="Application.FibonacciDynamicCache" />
         <item itemvalue="Application.WordMorph" />
         <item itemvalue="Application.Questions" />
-        <item itemvalue="Application.Josephus" />
-        <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.FunctionalProgrammingStringExercises" />
       </list>
     </recent_temporary>
   </component>
@@ -491,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533904912863</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="code refactoring">
+      <created>1536703420768</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536703420768</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -507,7 +530,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -517,12 +540,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32889965" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987952" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32771084" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32889965" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="SBT Console" order="11" />
@@ -584,13 +607,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/others/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -715,7 +731,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/others/LevenshteinDistance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -741,10 +757,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/graph/WordMorph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+        <state relative-caret-position="36">
+          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="591" column="6" selection-start-line="591" selection-start-column="6" selection-end-line="591" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/fibonacci/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/fibonacci/FibonacciDynamicCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/fibonacci/FibonacciRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/others/PrintXmasTreeDynamicCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
           </folding>
         </state>
       </provider>
