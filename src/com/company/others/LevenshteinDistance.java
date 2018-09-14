@@ -3,12 +3,18 @@ package com.company.others;
 import java.util.Arrays;
 
 
+/**
+ * Check: https://www.baeldung.com/java-levenshtein-distance
+ */
 public class LevenshteinDistance {
 
     public static void main(String a[]) {
         String source = "joel";
         String destiny = "noel";
-        System.out.println("L evenshtein distance is " + levenshteinDistance(source, destiny));
+        System.out.println("Levenshtein distance is " + levenshteinDistance(source, destiny));
+        source = "joel";
+        destiny = "melo";
+        System.out.println("Levenshtein distance is " + levenshteinDistance(source, destiny));
     }
 
     public static int levenshteinDistance(String source, String destiny) {
@@ -29,7 +35,7 @@ public class LevenshteinDistance {
 
     public static int min(int... numbers) {
         return Arrays.stream(numbers)
-                .min().orElse(Integer.MAX_VALUE);
+                .min().getAsInt();
     }
 
     private static int replace(char c1, char c2) {

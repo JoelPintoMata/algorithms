@@ -7,36 +7,43 @@ import java.util.stream.Collectors;
 
 public class WordMorph {
 
+    private static int min = 0;
+
     public static void main(String[] args) {
-        String[] vocabulary = new String[]{"break", "bread", "tread", "trend"};
-        System.out.println("Distance between break and tread is: " + distanceBetween("trend", "bread", vocabulary));
+        String[] vocabulary = new String[]{"break", "bread", "tread", "trend", "breat"};
+
+        min = 0;
+        distanceBetween("trend", "break", vocabulary);
+        System.out.println("Distance between trend and break is: " + min);
+
+        min = 0;
+        distanceBetween("break", "breat", vocabulary);
+        System.out.println("Distance between break and breat is: " + min);
     }
 
     private static int distanceBetween(String from, String to, String[] vocabulary) {
         Stack<String> stack = new Stack<>();
         stack.push(from);
-        return distanceBetweenAux(from, to, vocabulary, stack, 1);
+        return distanceBetweenAux(from, to, vocabulary, stack, 0);
     }
 
     private static int distanceBetweenAux(String from, String to, String[] vocabulary, Stack<String> stack, int count) {
         count++;
         String localFrom = stack.pop();
+//        remove current word from the available vocabulary
         vocabulary = Arrays.stream(vocabulary).filter(x -> !x.equals(from)).collect(Collectors.toList()).toArray(new String[0]);
+//        get all possible distance one words
+        List<String> distanceOneFromResultList = distanceOneFrom(localFrom, vocabulary);
 
-        List<String> distanceOneFromResult = distanceOneFrom(localFrom, vocabulary);
-        for (int i = 0; i < distanceOneFromResult.size(); i++) {
-            String aux = distanceOneFromResult.get(i);
-            if (aux.equals(to)) {
+        for (String str : distanceOneFromResultList) {
+            if (str.equals(to)) {
+                if (min == 0 || min > count) {
+                    min = count;
+                }
                 return count;
             } else {
-                stack.push(aux);
-
-                int result = distanceBetweenAux(aux, to, vocabulary, stack, count);
-                if (result > -1)
-                    return result;
-                else {
-                    stack.pop();
-                }
+                stack.push(str);
+                distanceBetweenAux(str, to, vocabulary, stack, count);
             }
         }
         return -1;
