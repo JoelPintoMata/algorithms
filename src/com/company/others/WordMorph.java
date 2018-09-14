@@ -1,4 +1,4 @@
-package com.company.graph;
+package com.company.others;
 
 import java.util.Arrays;
 import java.util.List;
