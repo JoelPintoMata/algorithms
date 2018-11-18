@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/codility/arrays/CycleRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codility/countingElements/FrogRiverOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codility/countingElements/MissingInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codility/countingElements/PermCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codility/sieveOfEratosthenes/CountNonDivisible.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,24 +70,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="31" />
+          <entry key="java" value="32" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="32" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5343" />
+          <entry key="java" value="5495" />
+          <entry key="md" value="48" />
           <entry key="txt" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5343" />
+          <entry key="JAVA" value="5495" />
+          <entry key="Markdown" value="48" />
           <entry key="PLAIN_TEXT" value="102" />
         </counts>
       </usages-collector>
@@ -141,14 +143,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codility/countingElements/MissingInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/codility/sieveOfEratosthenes/CountNonDivisible.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -158,27 +178,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="137" column="48" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/others/IsAnagram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/others/WordMorph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -227,9 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/graph/bfs/BFSTraversal.java" />
-        <option value="$PROJECT_DIR$/src/com/company/bfs/BFSTraversal.java" />
-        <option value="$PROJECT_DIR$/src/com/company/graphs/BFS.java" />
         <option value="$PROJECT_DIR$/src/com/company/graphs/BFSTraversal.java" />
         <option value="$PROJECT_DIR$/src/com/company/graphs/BFSOne.java" />
         <option value="$PROJECT_DIR$/src/com/company/graphs/BFSTwo.java" />
@@ -278,6 +274,9 @@
         <option value="$PROJECT_DIR$/src/com/codility/countingElements/CountingElements.java" />
         <option value="$PROJECT_DIR$/src/com/codility/countingElements/MissInteger.java" />
         <option value="$PROJECT_DIR$/src/com/codility/countingElements/MissingInteger.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/codility/countingElements/CountNonDivisible.java" />
+        <option value="$PROJECT_DIR$/src/com/codility/sieveOfEratosthenes/CountNonDivisible.java" />
       </list>
     </option>
   </component>
@@ -383,13 +382,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MissingInteger">
-    <configuration name="BFS (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.tree.BFS" />
+  <component name="RunManager" selected="Application.CountNonDivisible">
+    <configuration name="CountNonDivisible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codility.sieveOfEratosthenes.CountNonDivisible" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.tree.*" />
+          <option name="PATTERN" value="com.codility.sieveOfEratosthenes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -450,19 +449,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BFS (1)" />
       <item itemvalue="Application.CycleRotation" />
       <item itemvalue="Application.CountingElements" />
       <item itemvalue="Application.FrogRiverOne" />
       <item itemvalue="Application.MissingInteger" />
+      <item itemvalue="Application.CountNonDivisible" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNonDivisible" />
         <item itemvalue="Application.MissingInteger" />
         <item itemvalue="Application.FrogRiverOne" />
         <item itemvalue="Application.CountingElements" />
         <item itemvalue="Application.CycleRotation" />
-        <item itemvalue="Application.BFS (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -655,13 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -916,11 +908,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codility/countingElements/MissingInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codility/sieveOfEratosthenes/CountNonDivisible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
