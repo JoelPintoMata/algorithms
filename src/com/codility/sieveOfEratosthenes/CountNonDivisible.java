@@ -1,8 +1,8 @@
 package com.codility.sieveOfEratosthenes;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -19,13 +19,19 @@ public class CountNonDivisible {
 
     public static int[] solution(int[] A) {
         int[] result = new int[A.length];
+        Map<Integer, Integer> cache = new HashMap<>();
 
         for (int i = 0; i < A.length; i++) {
+            if (cache.get(A[i]) != null && cache.get(A[i]) > 0) {
+                result[i] = cache.get(A[i]);
+                continue;
+            }
             for (int j = 0; j < A.length; j++) {
                 if (A[i] % A[j] > 0) {
-                    result[i] = result[i] + 1;
+                    result[i]++;
                 }
             }
+            cache.put(A[i], result[i]);
         }
         return result;
     }
