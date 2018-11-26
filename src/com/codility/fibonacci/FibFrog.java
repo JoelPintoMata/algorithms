@@ -1,4 +1,4 @@
-package com.codility.arrays;
+package com.codility.fibonacci;
 
 import java.util.Arrays;
 
@@ -8,16 +8,13 @@ import java.util.Arrays;
  *
  * 100% solution
  */
-public class CycleRotation {
+public class FibFrog {
 
     public static void main(String a[]){
-        System.out.println("CycleRotation: ");
-        Arrays.stream(cycleRotation(new int[]{3, 8, 9, 7, 6}, 3)).forEach(x->System.out.println(x));
-        System.out.println("CycleRotation: ");
-        Arrays.stream(cycleRotation(new int[]{1, 2, 3, 4}, 4)).forEach(x->System.out.println(x));
+        System.out.println(solution(new int[]{0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0}));
     }
 
-    public static int[] cycleRotation(int[] A, int K) {
+    public static int[] solution(int[] A) {
         int [] rotatedA = new int[A.length];
 
         for(int i=0; i<A.length; i++) {

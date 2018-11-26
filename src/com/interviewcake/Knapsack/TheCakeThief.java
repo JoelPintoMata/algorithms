@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 /**
  * Check: https://www.interviewcake.com/question/java/cake-thief
+ * Check theoretical discussion: https://www.youtube.com/watch?v=m1p-eWxrt6g
  */
 public class TheCakeThief {
 
