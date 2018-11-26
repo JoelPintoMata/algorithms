@@ -52,28 +52,28 @@ public class ShortestPath {
         if (x1 - 1 > 0 && mat[y1][x1 - 1] == 1 && visited[y1][x1 - 1] == 0) {
             visited[y1][x1 - 1] = 1;
             arr[0] = shortestPathAux(x1 - 1, y1, x2, y2, mat, visited, ++length);
-//            remove the visited square to allow back tracking
+//            reset this play in order to backtrack
             visited[y1][x1 - 1] = 0;
             --length;
         }
         if (x1 + 1 < mat[0].length - 1 && mat[y1][x1 + 1] == 1 && visited[y1][x1 + 1] == 0) {
             visited[y1][x1 + 1] = 1;
             arr[1] = shortestPathAux(x1 + 1, y1, x2, y2, mat, visited, ++length);
-//            remove the visited square to allow back tracking
+//            reset this play in order to backtrack
             visited[y1][x1 + 1] = 0;
             --length;
         }
         if (y1 - 1 > 0 && mat[y1 - 1][x1] == 1 && visited[y1 - 1][x1] == 0) {
             visited[y1 - 1][x1] = 1;
             arr[2] = shortestPathAux(x1, y1 - 1, x2, y2, mat, visited, ++length);
-//            remove the visited square to allow back tracking
+//            reset this play in order to backtrack
             visited[y1 - 1][x1] = 0;
             --length;
         }
         if (y1 + 1 < mat[0].length - 1 && mat[y1 + 1][x1] == 1 && visited[y1 + 1][x1] == 0) {
             visited[y1 + 1][x1] = 1;
             arr[3] = shortestPathAux(x1, y1 + 1, x2, y2, mat, visited, ++length);
-//            remove the visited square to allow back tracking
+//            reset this play in order to backtrack
             visited[y1 + 1][x1] = 0;
             --length;
         }
