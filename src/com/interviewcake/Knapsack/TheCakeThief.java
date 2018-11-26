@@ -1,4 +1,4 @@
-package com.interviewcake.;
+package com.interviewcake.Knapsack;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;

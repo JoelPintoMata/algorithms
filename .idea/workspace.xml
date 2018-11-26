@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="new algorithms">
-      <change afterPath="$PROJECT_DIR$/src/com/codility/countingElements/TheCakeThief.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/interviewcake/TheCakeThief.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/techiedelight/recursion/ShortestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techiedelight/recursion/ShortestPath.java" afterDir="false" />
     </list>
@@ -83,14 +83,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9145" />
+          <entry key="java" value="9163" />
           <entry key="md" value="52" />
           <entry key="txt" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9145" />
+          <entry key="JAVA" value="9163" />
           <entry key="Markdown" value="52" />
           <entry key="PLAIN_TEXT" value="118" />
         </counts>
@@ -139,10 +139,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/codility/countingElements/TheCakeThief.java">
+        <entry file="file://$PROJECT_DIR$/src/com/interviewcake/TheCakeThief.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="34" column="65" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="65" />
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#835#836#0" expanded="true" />
@@ -207,7 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/sort/quicksort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/com/company/sort/quicksort/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/graph/DFSs.java" />
         <option value="$PROJECT_DIR$/src/com/company/graph/BFS.java" />
@@ -258,6 +257,7 @@
         <option value="$PROJECT_DIR$/src/com/techiedelight/recursion/ShortestPath.java" />
         <option value="$PROJECT_DIR$/src/com/techiedelight/arrays/FindNdigitNums.java" />
         <option value="$PROJECT_DIR$/src/com/codility/countingElements/TheCakeThief.java" />
+        <option value="$PROJECT_DIR$/src/com/interviewcake/TheCakeThief.java" />
       </list>
     </option>
   </component>
@@ -612,11 +612,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32889965" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987952" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32891566" />
@@ -646,18 +646,6 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/codility/countingElements/TheCakeThief.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/others/FindMiddleIndexWhereSumIsEqual.java">
@@ -976,10 +964,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codility/countingElements/TheCakeThief.java">
+    <entry file="file://$PROJECT_DIR$/src/com/interviewcake/TheCakeThief.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="34" column="65" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="65" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#835#836#0" expanded="true" />
