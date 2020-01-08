@@ -1,9 +1,8 @@
 package com.company.leetCode;
 
 /**
- * Palindromic Substrings: https://leetcode.com/problems/palindromic-substrings/
- * Runtime: 1 ms, faster than 100.00% of Java online submissions for Palindromic Substrings
- * Memory Usage: 34.2 MB, less than 100.00% of Java online submissions for Palindromic Substrings.
+ * 1143. Longest Common Subsequence: https://leetcode.com/problems/longest-common-subsequence/submissions/
+ *
  */
 public class LongestCommonSubsequence {
 

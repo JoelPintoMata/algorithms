@@ -19,7 +19,17 @@ public class LongestPalindromicSubsequence {
 //        s = "bacab";
 //        s = "bbbab";
         s = "nwlrbbmqbh";
+        int dynamic = lps.calculateDynamic(s);
         int recursive = lps.longestPalindromeSubseq(s);
+
+        System.out.print(dynamic + " " + recursive);
+    }
+
+    public int longestPalindromeSubseq(String s) {
+//        return calculateDynamic(s, 0, s.length() - 1);
+
+        array = new int[s.length()][s.length()];
+        return calculateRecursive(s, 0, s.length() - 1);
     }
 
     public int calculateDynamic(String s) {
@@ -41,15 +51,6 @@ public class LongestPalindromicSubsequence {
             }
         }
         return array[0][s.length() - 1];
-    }
-
-    public int longestPalindromeSubseq(String s) {
-        array = new int[s.length()][s.length()];
-        int dynamic = calculateDynamic(s);
-        int recursive = calculateRecursive(s, 0, s.length() - 1);
-        System.out.print(dynamic + " " + recursive);
-
-        return recursive;
     }
 
     private int calculateRecursive(String str, int from, int to) {
