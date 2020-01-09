@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="code refactoring">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/LongestPalindromicSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/PalindromicStrings.java" afterDir="false" />
+    <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/IslandPerimeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/PowerOfFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/TwoSumII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetCode/LongestCommonSubsequence.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,7 @@
   <component name="ProjectId" id="1VrAmJWBAIWfRqevTlC9DcMXPys" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533905485086" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -77,9 +77,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindromicSubsequence">
-    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.FourSum" />
+  <component name="RunManager" selected="Application.IslandPerimeter">
+    <configuration name="IslandPerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.IslandPerimeter" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.LongestPalindromicSubstring" />
+    <configuration name="PowerOfFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.PowerOfFour" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.PalindromicStrings" />
+    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.TwoSumII" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -144,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FourSum" />
-      <item itemvalue="Application.LongestPalindromicSubstring" />
-      <item itemvalue="Application.PalindromicStrings" />
       <item itemvalue="Application.LongestPalindromicSubsequence" />
       <item itemvalue="Application.LongestCommonSubsequence" />
+      <item itemvalue="Application.PowerOfFour" />
+      <item itemvalue="Application.TwoSumII" />
+      <item itemvalue="Application.IslandPerimeter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestPalindromicSubsequence" />
+        <item itemvalue="Application.IslandPerimeter" />
+        <item itemvalue="Application.TwoSumII" />
+        <item itemvalue="Application.PowerOfFour" />
         <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.PalindromicStrings" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Application.FourSum" />
+        <item itemvalue="Application.LongestPalindromicSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543361713790</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new projects">
+      <created>1578521133926</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578521133926</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Code refactoring">
+      <created>1578522805562</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578522805562</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -302,11 +316,12 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Code refactoring" />
     <MESSAGE value="anagram finder algorithm" />
     <MESSAGE value="new algorithms" />
     <MESSAGE value="code refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="code refactoring" />
+    <MESSAGE value="new projects" />
+    <MESSAGE value="Code refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactoring" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -316,7 +331,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/leetCode/LongestPalindromicSubstring.java</url>
-          <line>15</line>
+          <line>16</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>

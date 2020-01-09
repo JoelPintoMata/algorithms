@@ -1,49 +1,32 @@
 package com.company.leetCode;
 
 /**
- * 1143. Longest Common Subsequence: https://leetcode.com/problems/longest-common-subsequence/submissions/
+ * 1143. Longest Common Subsequence: https://leetcode.com/problems/longest-common-subsequence/
  *
  */
 public class LongestCommonSubsequence {
 
     public static void main(String[] args) {
         LongestCommonSubsequence lcs = new LongestCommonSubsequence();
-        String str1 = "e";
-        String str2 = "ez";
+        String str1 = "aed";
+        String str2 = "acxe";
 
-        int result = lcs.lcs(str1.toCharArray(), str2.toCharArray(), 0, 0);
-//        int result = lcs.lcsDynamic(str1.toCharArray(), str2.toCharArray());
+        int result = lcs.longestCommonSubsequence(str1, str2);
         System.out.print(result);
     }
 
-    public int lcs(char[] str1, char[] str2, int len1, int len2) {
-        if (len1 == str1.length || len2 == str2.length) {
-            return 0;
-        }
-        System.out.println(str1[len1] + " " + str2[len2]);
-        if (str1[len1] == str2[len2]) {
-            return 1 + lcs(str1, str2, len1 + 1, len2 + 1);
-        } else {
-            return Math.max(lcs(str1, str2, len1 + 1, len2), lcs(str1, str2, len1, len2 + 1));
-        }
+    public int longestCommonSubsequence(String text1, String text2) {
+        int v1 = helper(text1, text2, 0, 0);
+        return v1;
     }
 
-    public int lcsDynamic(char[] str1, char[] str2) {
-
-        int[][] temp = new int[str1.length + 1][str2.length + 1];
-        int max = 0;
-        for (int i = 1; i < temp.length; i++) {
-            for (int j = 1; j < temp[i].length; j++) {
-                if (str1[i - 1] == str2[j - 1]) {
-                    temp[i][j] = temp[i - 1][j - 1] + 1;
-                } else {
-                    temp[i][j] = Math.max(temp[i][j - 1], temp[i - 1][j]);
-                }
-                if (temp[i][j] > max) {
-                    max = temp[i][j];
-                }
-            }
+    private int helper(String text1, String text2, int i1, int i2) {
+        if (i1 >= text1.length() || i2 >= text2.length())
+            return 0;
+        if (text1.charAt(i1) == text2.charAt(i2)) {
+            return 1 + helper(text1, text2, i1 + 1, i2 + 1);
         }
-        return max;
+        return Math.max(helper(text1, text2, i1 + 1, i2),
+                helper(text1, text2, i1, i2 + 1));
     }
 }
