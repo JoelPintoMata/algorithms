@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/IslandPerimeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/PowerOfFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/TwoSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codility/timeComplexity/FrogJmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codility/timeComplexity/xxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/CombinationSumIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/FindBottomLeftTreeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/FirstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/IntersectionTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/OutOfBoundayPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetCode/RemoveOutermostParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetCode/LongestCommonSubsequence.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +53,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -55,11 +61,11 @@
       <recent name="$PROJECT_DIR$/src/com/company/others" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codility.timeComplexity" />
+      <recent name="com.codility.countingElements" />
       <recent name="com.company.leetCode" />
       <recent name="com.codility.fibonacci" />
-      <recent name="com.codility.countingElements" />
       <recent name="com.techiedelight.arrays" />
-      <recent name="com.techiedelight.recursion" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -77,9 +83,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IslandPerimeter">
-    <configuration name="IslandPerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.IslandPerimeter" />
+  <component name="RunManager" selected="Application.PermMissingElem">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.CombinationSum" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.LongestCommonSubsequence" />
+    <configuration name="IntersectionTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.IntersectionTwoArrays" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.LongestPalindromicSubsequence" />
+    <configuration name="OutOfBoundayPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.OutOfBoundayPaths" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -117,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.PowerOfFour" />
+    <configuration name="PermMissingElem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codility.timeComplexity.PermMissingElem" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.leetCode.*" />
+          <option name="PATTERN" value="com.codility.timeComplexity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.TwoSumII" />
+    <configuration name="RemoveOutermostParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetCode.RemoveOutermostParentheses" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -144,19 +150,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LongestPalindromicSubsequence" />
-      <item itemvalue="Application.LongestCommonSubsequence" />
-      <item itemvalue="Application.PowerOfFour" />
-      <item itemvalue="Application.TwoSumII" />
-      <item itemvalue="Application.IslandPerimeter" />
+      <item itemvalue="Application.CombinationSum" />
+      <item itemvalue="Application.OutOfBoundayPaths" />
+      <item itemvalue="Application.RemoveOutermostParentheses" />
+      <item itemvalue="Application.IntersectionTwoArrays" />
+      <item itemvalue="Application.PermMissingElem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IslandPerimeter" />
-        <item itemvalue="Application.TwoSumII" />
-        <item itemvalue="Application.PowerOfFour" />
-        <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.LongestPalindromicSubsequence" />
+        <item itemvalue="Application.PermMissingElem" />
+        <item itemvalue="Application.IntersectionTwoArrays" />
+        <item itemvalue="Application.RemoveOutermostParentheses" />
+        <item itemvalue="Application.OutOfBoundayPaths" />
+        <item itemvalue="Application.CombinationSum" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578522805562</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Code refactoring">
+      <created>1578610704141</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578610704141</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
