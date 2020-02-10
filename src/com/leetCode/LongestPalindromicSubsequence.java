@@ -1,4 +1,4 @@
-package com.company.leetCode;
+package com.leetCode;
 
 /**
  * 516. Longest Palindromic Subsequence: https://leetcode.com/problems/longest-palindromic-subsequence/

@@ -1,4 +1,4 @@
-package com.company.leetCode;
+package com.leetCode;
 
 /**
  * 463. Island Perimeter: https://leetcode.com/problems/island-perimeter

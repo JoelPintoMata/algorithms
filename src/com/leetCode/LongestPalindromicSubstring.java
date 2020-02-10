@@ -1,4 +1,4 @@
-package com.company.leetCode;
+package com.leetCode;
 
 /**
  * 5. Longest Palindromic Substring: https://leetcode.com/problems/longest-palindromic-substring/

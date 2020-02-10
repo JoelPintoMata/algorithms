@@ -1,4 +1,4 @@
-package com.company.leetCode;
+package com.leetCode;
 
 /**
  * Palindromic Substrings: https://leetcode.com/problems/palindromic-substrings/

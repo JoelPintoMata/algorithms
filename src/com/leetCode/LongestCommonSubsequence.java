@@ -1,4 +1,4 @@
-package com.company.leetCode;
+package com.leetCode;
 
 /**
  * 1143. Longest Common Subsequence: https://leetcode.com/problems/longest-common-subsequence/
