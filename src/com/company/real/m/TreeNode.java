@@ -1,4 +1,4 @@
-package com.real.m;
+package com.company.real.m;
 
 import org.junit.jupiter.api.Assertions;
 

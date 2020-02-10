@@ -1,6 +1,6 @@
-package com.real.f;
+package com.company.real.f;
 
-public class FraudioReachingPoints {
+public class TransactionStatementForUsers {
 
     int[][] arr = new int[1001][1001];
 
@@ -8,7 +8,7 @@ public class FraudioReachingPoints {
      * @param a
      */
     public static void main(String[] a) {
-        FraudioReachingPoints combinationSumIV = new FraudioReachingPoints();
+        TransactionStatementForUsers combinationSumIV = new TransactionStatementForUsers();
         System.out.println(combinationSumIV.canReach(1, 1, 5, 2));
     }
 

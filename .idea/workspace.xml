@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/amazonia/Something1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/a/Something1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amazonia/Something2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/a/Something2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amazonia/Something3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/a/Something3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/preorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/preorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/CakeThiefKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/knapsack/CakeThiefKnapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/FindMiddleIndexWhereSumIsEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/arrays/FindMiddleIndexWhereSumIsEqual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/FirstWordNotRepeatedInStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/FirstWordNotRepeatedInStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/IsAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/LongestValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/arrays/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/PerfectNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/math/PerfectNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/PrintXmasTreeDynamicCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/PrintXmasTreeDynamicCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lists/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/TwoMaxNumbersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/arrays/TwoMaxNumbersInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/others/WordMorph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/WordMorph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fraudio/ConnectedSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/f/ConnectedSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fraudio/Fraudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/f/Fraudio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fraudio/FraudioReachingPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/f/FraudioReachingPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fraudio/TransactionStatementForUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/f/TransactionStatementForUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/midokura/SeatingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/m/SeatingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/midokura/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/m/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/CustomerGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/SeatingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/real/a/Something1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/a/Something1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/real/a/Something2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/a/Something2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/real/a/Something3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/a/Something3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/real/f/ConnectedSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/f/ConnectedSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/real/f/Fraudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/f/Fraudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/real/f/FraudioReachingPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/f/FraudioReachingPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/real/f/TransactionStatementForUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/f/TransactionStatementForUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/real/m/SeatingManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/real/m/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/m/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +64,10 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533905485086" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/real/m" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -86,19 +81,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.real.m.seatingManager" />
       <recent name="com.midokura" />
       <recent name="com.amazonia" />
       <recent name="com.leetCode" />
       <recent name="com.fraudio" />
-      <recent name="com.codility.challenges.zalando" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company/real/m" />
       <recent name="$PROJECT_DIR$/src/com/company/others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeNode">
+  <component name="RunManager" selected="Application.SeatingManager">
     <configuration name="ConnectedSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.real.f.ConnectedSum" />
+      <option name="MAIN_CLASS_NAME" value="com.company.real.f.ConnectedSum" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -110,15 +106,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FraudioReachingPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.real.f.FraudioReachingPoints" />
+    <configuration name="SeatingManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.real.m.seatingManager.SeatingManager" />
       <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fraudio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,7 +127,7 @@
       </method>
     </configuration>
     <configuration name="Something2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.real.a.Something2" />
+      <option name="MAIN_CLASS_NAME" value="com.company.real.a.Something2" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +140,7 @@
       </method>
     </configuration>
     <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.real.m.TreeNode" />
+      <option name="MAIN_CLASS_NAME" value="com.company.real.m.TreeNode" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -163,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FraudioReachingPoints" />
       <item itemvalue="Application.ConnectedSum" />
       <item itemvalue="Application.Something1" />
       <item itemvalue="Application.Something2" />
       <item itemvalue="Application.TreeNode" />
+      <item itemvalue="Application.SeatingManager" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SeatingManager" />
         <item itemvalue="Application.TreeNode" />
         <item itemvalue="Application.Something2" />
         <item itemvalue="Application.Something1" />
         <item itemvalue="Application.ConnectedSum" />
-        <item itemvalue="Application.FraudioReachingPoints" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579732602460</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Code refactoring">
+      <created>1581324929571</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1581324929571</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -378,6 +375,54 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="810" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581324710195" />
+    <state x="306" y="137" key="CommitChangelistDialog2" timestamp="1581324929229">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="306" y="137" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581324929229" />
+    <state width="512" height="466" key="DebuggerActiveHint" timestamp="1581347811351">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state width="512" height="466" key="DebuggerActiveHint/50.22.1630.1028@50.22.1630.1028" timestamp="1581347811351" />
+    <state width="1588" height="239" key="GridCell.Tab.0.bottom" timestamp="1581348118312">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state width="1588" height="239" key="GridCell.Tab.0.bottom/50.22.1630.1028@50.22.1630.1028" timestamp="1581348118312" />
+    <state width="1588" height="239" key="GridCell.Tab.0.center" timestamp="1581348118311">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state width="1588" height="239" key="GridCell.Tab.0.center/50.22.1630.1028@50.22.1630.1028" timestamp="1581348118311" />
+    <state width="1588" height="239" key="GridCell.Tab.0.left" timestamp="1581348118311">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state width="1588" height="239" key="GridCell.Tab.0.left/50.22.1630.1028@50.22.1630.1028" timestamp="1581348118311" />
+    <state width="1588" height="239" key="GridCell.Tab.0.right" timestamp="1581348118312">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state width="1588" height="239" key="GridCell.Tab.0.right/50.22.1630.1028@50.22.1630.1028" timestamp="1581348118312" />
+    <state width="1588" height="239" key="GridCell.Tab.1.bottom" timestamp="1581348118205">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state width="1588" height="239" key="GridCell.Tab.1.bottom/50.22.1630.1028@50.22.1630.1028" timestamp="1581348118205" />
+    <state width="1588" height="239" key="GridCell.Tab.1.center" timestamp="1581348118204">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state width="1588" height="239" key="GridCell.Tab.1.center/50.22.1630.1028@50.22.1630.1028" timestamp="1581348118204" />
+    <state width="1588" height="239" key="GridCell.Tab.1.left" timestamp="1581348118203">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state width="1588" height="239" key="GridCell.Tab.1.left/50.22.1630.1028@50.22.1630.1028" timestamp="1581348118203" />
+    <state width="1588" height="239" key="GridCell.Tab.1.right" timestamp="1581348118204">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state width="1588" height="239" key="GridCell.Tab.1.right/50.22.1630.1028@50.22.1630.1028" timestamp="1581348118204" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1581324931395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581324931395" />
+    <state x="577" y="437" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581343770587">
+      <screen x="50" y="22" width="1630" height="1028" />
+    </state>
+    <state x="577" y="437" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/50.22.1630.1028@50.22.1630.1028" timestamp="1581343770587" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -408,12 +453,23 @@
           <option name="timeStamp" value="285" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/real/f/ConnectedSum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/company/real/f/ConnectedSum.java</url>
           <line>83</line>
           <option name="timeStamp" value="321" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/real/m/seatingManager/SeatingManager.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="table.size-2" />
+        <watch expression="occupiedTableArray[table.size-2]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>

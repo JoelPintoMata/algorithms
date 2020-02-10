@@ -1,4 +1,4 @@
-package com.real.f;
+package com.company.real.f;
 
 public class ConnectedSum {
 
