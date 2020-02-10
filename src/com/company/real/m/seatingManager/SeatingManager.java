@@ -232,15 +232,15 @@ public class SeatingManager {
     private boolean seatCustomerGroup(CustomerGroup customerGroup) {
 //        we prioritize seating this group on a separate table with the same size as the group
         Optional<Table> table = getFreeTableOfSize(customerGroup.size);
-//        if (table.isPresent()) {
-//            addOccupiedTableSeats(customerGroup.size, table.get());
-//            removeFreeTable(table.get());
-//            emptySeatsMap.put(table.get(), 0);
-//
-////             seat the given customer group in a free table
-//            seatedCustomerGroupMap.put(customerGroup, table.get());
-//            return true;
-//        }
+        if (table.isPresent()) {
+            addOccupiedTableSeats(customerGroup.size, table.get());
+            removeFreeTable(table.get());
+            emptySeatsMap.put(table.get(), 0);
+
+//             seat the given customer group in a free table
+            seatedCustomerGroupMap.put(customerGroup, table.get());
+            return true;
+        }
 
 //        next, we try to give them a table a bit bigger
         for (int i = (customerGroup.size + 1 - 2); i < tableSizeArray.length; i++) {
@@ -360,13 +360,6 @@ public class SeatingManager {
      */
     private void removeFreeTable(Table table) {
         freeTableArray[table.size - 2].remove(table);
-    }
-
-    /**
-     * @param table a table
-     */
-    private void addFreeTable(Table table) {
-        freeTableArray[table.size - 2].add(table);
     }
 
     /**
