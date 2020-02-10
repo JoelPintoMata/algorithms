@@ -1,4 +1,4 @@
-package com.company.others;
+package com.company.knapsack;
 
 import java.util.ArrayList;
 import java.util.List;

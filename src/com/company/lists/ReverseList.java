@@ -1,4 +1,4 @@
-package com.company.others;
+package com.company.lists;
 
 import java.util.ArrayList;
 import java.util.List;

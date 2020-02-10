@@ -2,42 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/amazonia/Something1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amazonia/Something2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amazonia/Something3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codility/challenges/zalando/MaxNotPresent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codility/challenges/zalando/MaxPathFromTheLeftTopCorner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fraudio/ConnectedSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fraudio/Fraudio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fraudio/FraudioReachingPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fraudio/TransactionStatementForUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/BestTimetoBuyandSellStockI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/BestTimetoBuyandSellStockII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/DeepestLeavesSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/DegreeOfAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/MaximumSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/SplitStringBalancedStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/midokura/SeatingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/midokura/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/CombinationSumIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/CombinationSumIV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/FindBottomLeftTreeValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/FindBottomLeftTreeValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/FirstBadVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/FourSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/IntersectionTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/IntersectionTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/IslandPerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/IslandPerimeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/LongestPalindromicSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/OutOfBoundayPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/OutOfBoundayPaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/PalindromicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/PalindromicStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/PowerOfFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/PowerOfFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/RemoveOutermostParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/RemoveOutermostParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/TwoSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/TwoSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazonia/Something1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/a/Something1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazonia/Something2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/a/Something2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazonia/Something3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/a/Something3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetCode/preorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/preorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/CakeThiefKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/knapsack/CakeThiefKnapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/FindMiddleIndexWhereSumIsEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/arrays/FindMiddleIndexWhereSumIsEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/FirstWordNotRepeatedInStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/FirstWordNotRepeatedInStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/IsAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/LongestValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/arrays/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/PerfectNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/math/PerfectNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/PrintXmasTreeDynamicCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/PrintXmasTreeDynamicCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lists/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/TwoMaxNumbersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/arrays/TwoMaxNumbersInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/others/WordMorph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strings/WordMorph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fraudio/ConnectedSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/f/ConnectedSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fraudio/Fraudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/f/Fraudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fraudio/FraudioReachingPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/f/FraudioReachingPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fraudio/TransactionStatementForUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/f/TransactionStatementForUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/midokura/SeatingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/m/SeatingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/midokura/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/real/m/TreeNode.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,17 +53,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/com/leetCode/PalindromicStrings.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/leetCode/LongestPalindromicSubsequence.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/leetCode/PalindromicStrings.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/leetCode/FourSum.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1VrAmJWBAIWfRqevTlC9DcMXPys" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533905485086" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -88,8 +80,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/company/others" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/real/a" />
+      <recent name="$PROJECT_DIR$/src/com/leetCode" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.midokura" />
@@ -98,25 +92,13 @@
       <recent name="com.fraudio" />
       <recent name="com.codility.challenges.zalando" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company/others" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.TreeNode">
     <configuration name="ConnectedSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fraudio.ConnectedSum" />
+      <option name="MAIN_CLASS_NAME" value="com.real.f.ConnectedSum" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +111,7 @@
       </method>
     </configuration>
     <configuration name="FraudioReachingPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fraudio.FraudioReachingPoints" />
+      <option name="MAIN_CLASS_NAME" value="com.real.f.FraudioReachingPoints" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +124,7 @@
       </method>
     </configuration>
     <configuration name="Something1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amazonia.Something1" />
+      <option name="MAIN_CLASS_NAME" value="com.real.Something1" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -155,7 +137,7 @@
       </method>
     </configuration>
     <configuration name="Something2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amazonia.Something2" />
+      <option name="MAIN_CLASS_NAME" value="com.real.a.Something2" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +150,7 @@
       </method>
     </configuration>
     <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.midokura.TreeNode" />
+      <option name="MAIN_CLASS_NAME" value="com.real.m.TreeNode" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -196,6 +178,18 @@
         <item itemvalue="Application.FraudioReachingPoints" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -358,7 +352,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -376,6 +372,12 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="810" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581324710195">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="810" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581324710195" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -406,17 +408,12 @@
           <option name="timeStamp" value="285" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/fraudio/ConnectedSum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/real/f/ConnectedSum.java</url>
           <line>83</line>
           <option name="timeStamp" value="321" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithms$BestTimetoBuyandSellStockI.ic" NAME="BestTimetoBuyandSellStockI Coverage Results" MODIFIED="1580562016158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.leetCode.*</FILTER>
-    </SUITE>
   </component>
   <component name="masterDetails">
     <states>

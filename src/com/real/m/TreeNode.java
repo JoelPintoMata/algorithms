@@ -1,4 +1,4 @@
-package com.midokura;
+package com.real.m;
 
 import org.junit.jupiter.api.Assertions;
 

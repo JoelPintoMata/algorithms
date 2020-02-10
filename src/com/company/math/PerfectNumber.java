@@ -1,4 +1,4 @@
-package com.company.others;
+package com.company.math;
 
 
 public class PerfectNumber {
