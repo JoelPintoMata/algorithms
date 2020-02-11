@@ -32,20 +32,20 @@ public class SeatingManager {
     public static final int TABLE_SIZE_5 = 5;
     public static final int TABLE_SIZE_6 = 6;
 
-    //    Array mapping a list of tables having a number of free seats
-//    this is therefore a 2 indexed array
+    // Array mapping a list of tables having a number of free seats
+    // this is therefore a 2 indexed array
     List<Table>[] freeTableSeatsArray = new ArrayList[6];  // 1 to 6 possible partially occupied places at a table
 
-    //    List of customer groups waiting to be seated
+    // List of customer groups waiting to be seated
     List<CustomerGroup> waitingCustomerGroupForTable = new ArrayList<>();
 
-    //    Maps a customer group to their table
+    // Maps a customer group to their table
     Map<CustomerGroup, Table> seatedCustomerGroupMap;
 
-    //    Maps a table to the number of free seats
-//    why? a table for six can have 2 groups of 2; when one is removed how many free
-//    spaces we have left? previous 2 plus the emptied 2, we need a wait to quick keep
-//    track of these numbers
+    // Maps a table to the number of free seats
+    // why? a table for six can have 2 groups of 2; when one is removed how many free
+    // spaces we have left? previous 2 plus the emptied 2, we need a wait to quick keep
+    // track of these numbers
     Map<Table, Integer> freeSeatsMap;
 
     /* Constructor */
@@ -66,45 +66,30 @@ public class SeatingManager {
             freeSeatsMap.put(table, table.size);
             if (table.size == TABLE_SIZE_2) {
                 freeTableSeatsArray[1].add(table);
+                continue;
             }
             if (table.size == TABLE_SIZE_3) {
                 freeTableSeatsArray[2].add(table);
+                continue;
             }
             if (table.size == TABLE_SIZE_4) {
                 freeTableSeatsArray[3].add(table);
+                continue;
             }
             if (table.size == TABLE_SIZE_5) {
                 freeTableSeatsArray[4].add(table);
+                continue;
             }
             if (table.size == TABLE_SIZE_6) {
                 freeTableSeatsArray[5].add(table);
+                continue;
             }
-        }
-    }
-
-    private void addFreeSeatsTable(int size, Table table) {
-        freeTableSeatsArray[size - 1].add(table);
-    }
-
-    private void removeFreeTableSeats(int seats, Table table) {
-        freeTableSeatsArray[seats - 1].remove(table);
-    }
-
-    /**
-     * Group arrives and wants to be seated
-     *
-     * @param customerGroup a customer group
-     */
-    public void arrives(CustomerGroup customerGroup) {
-        if (!seatCustomerGroup(customerGroup)) {
-//            if we were not able to seat this group they will need to wait
-            addWaitingCustomerGroup(customerGroup);
         }
     }
 
     public static void main(String[] a) {
         givenTwoLargeGroups_whenThirdArrives_ThenWaits();
-        givenCustomerGroup_whenSeats_thenWeSitOportunistically();
+        givenCustomerGroup_whenSeat_thenSit();
         givenFullCapacity_thenFullCapacity();
         givenTooManyCustomerGroups_whenCustomerGroupLeave_thenWaitingCustomerGroup_is_seated();
     }
@@ -138,31 +123,17 @@ public class SeatingManager {
     }
 
     /**
-     * Seats waiting customer groups
+     * Group arrives and wants to be seated
+     * @param customerGroup a customer group
      */
-    private void seatWaitingCustomerGroups() {
-        for (CustomerGroup customerGroup : waitingCustomerGroupForTable) {
-            seatCustomerGroup(customerGroup);
+    public void arrives(CustomerGroup customerGroup) {
+        if (!seatCustomerGroup(customerGroup)) {
+//            if we were not able to seat this group they will need to wait
+            addWaitingCustomerGroup(customerGroup);
         }
     }
 
-    /**
-     * Adds a customer group to the waiting list
-     * @param customerGroup a customer group
-     */
-    private void addWaitingCustomerGroup(CustomerGroup customerGroup) {
-        waitingCustomerGroupForTable.add(customerGroup);
-    }
-
-    /**
-     * Removes a customer group from the waiting list
-     * @param customerGroup a customer group
-     */
-    private void removeWaitingCustomerGroup(CustomerGroup customerGroup) {
-        waitingCustomerGroupForTable.remove(customerGroup);
-    }
-
-    private static void givenCustomerGroup_whenSeats_thenWeSitOportunistically() {
+    private static void givenCustomerGroup_whenSeat_thenSit() {
         List<Table> tables = new ArrayList<>();
         Table table = new Table(TABLE_SIZE_2);
         tables.add(table);
@@ -191,14 +162,44 @@ public class SeatingManager {
         Assertions.assertEquals(4, seatingManager.locate(customerGroup).size);
     }
 
+
     /**
-     * Locates the table holding a customer group
-     *
-     * @param customerGroup a customer group
-     * @return Return the table at which the group is seated, or null if they are not seated (whether they're waiting or already left).
+     * Seats waiting customer groups
      */
-    public Table locate(CustomerGroup customerGroup) {
-        return seatedCustomerGroupMap.get(customerGroup);
+    private void seatWaitingCustomerGroups() {
+        for (CustomerGroup customerGroup : waitingCustomerGroupForTable) {
+            seatCustomerGroup(customerGroup);
+        }
+    }
+
+    /**
+     * Adds a customer group to the waiting list
+     * @param customerGroup a customer group
+     */
+    private void addWaitingCustomerGroup(CustomerGroup customerGroup) {
+        waitingCustomerGroupForTable.add(customerGroup);
+    }
+
+    /**
+     * Removes a customer group from the waiting list
+     * @param customerGroup a customer group
+     */
+    private void removeWaitingCustomerGroup(CustomerGroup customerGroup) {
+        waitingCustomerGroupForTable.remove(customerGroup);
+    }
+
+    /**
+     * Resets/recalculate a table free seats
+     *
+     * @param table a table
+     * @return this table number of free seats
+     */
+    private int resetFreeTableSeats(Table table) {
+        int total = freeSeatsMap.get(table);
+        if (total > 0) {
+            freeTableSeatsArray[total - 1].remove(table);
+        }
+        return total;
     }
 
     @Test
@@ -253,6 +254,15 @@ public class SeatingManager {
         Assertions.assertNotNull(seatingManager.locate(customerGroup10));
     }
 
+    /**
+     * Retrieves the number of customer groups waiting for a table
+     *
+     * @Return waiting list size
+     */
+    private int waitingCustomerGroupForTableSize() {
+        return waitingCustomerGroupForTable.size();
+    }
+
     @Test
     private static void givenTooManyCustomerGroups_whenCustomerGroupLeave_thenWaitingCustomerGroup_is_seated() {
         List<Table> tables = new ArrayList<>();
@@ -279,23 +289,37 @@ public class SeatingManager {
     }
 
     /**
-     * Resets/recalculate a table free seats
+     * Records the availability of a given number of seats on the given table
      *
+     * @param seats the number of seats
      * @param table a table
-     * @return this table number of free seats
      */
-    private int resetFreeTableSeats(Table table) {
-        int total = freeSeatsMap.get(table);
-        if (total > 0) {
-            freeTableSeatsArray[total - 1].remove(table);
-        }
-        return total;
+    private void addFreeSeatsTable(int seats, Table table) {
+        freeTableSeatsArray[seats - 1].add(table);
+    }
+
+    /**
+     * Records the unavailability of a given number of seats on the given table
+     * @param seats the number of seats
+     * @param table a table
+     */
+    private void removeFreeTableSeats(int seats, Table table) {
+        freeTableSeatsArray[seats - 1].remove(table);
+    }
+
+    /**
+     * Locates the table holding a customer group
+     *
+     * @param customerGroup a customer group
+     * @return Return the table at which the group is seated, or null if they are not seated (whether they're waiting or already left).
+     */
+    public Table locate(CustomerGroup customerGroup) {
+        return seatedCustomerGroupMap.get(customerGroup);
     }
 
     /**
      * Manages the event where a customer group leaves
      * Note: Whether seated or not, the group leaves the restaurant.
-     *
      * @param customerGroup a customer group
      */
     public void leaves(CustomerGroup customerGroup) {
@@ -303,11 +327,9 @@ public class SeatingManager {
         Table table = locate(customerGroup);
 //        if the customer group is already seated
         if (table != null) {
-//            remove this table from the occupied state
-//            removeOccupiedTableSeats(customerGroup.size, table);
 //            recalculate the number of free seats at this table
-            int total = resetFreeTableSeats(table);
-            addFreeSeatsTable(customerGroup.size + total, table);
+            addFreeSeatsTable(customerGroup.size + resetFreeTableSeats(table),
+                    table);
         } else {
 //            remove the customer group from the waiting list
             removeWaitingCustomerGroup(customerGroup);
@@ -318,17 +340,14 @@ public class SeatingManager {
     }
 
     /**
-     * Retrieves the number of customer groups waiting for a table
-     *
-     * @Return waiting list size
+     * Seats a customer group. We try to seat them in the smallest possible table,
+     * that way we try to leave bigger tables open for bigger waiting or arriving groups
+     * @param customerGroup a customer group
+     * @return true, if the customer group got seated, false if otherwise
      */
-    private int waitingCustomerGroupForTableSize() {
-        return waitingCustomerGroupForTable.size();
-    }
-
     private boolean seatCustomerGroup(CustomerGroup customerGroup) {
+        Table table = null;
         for (int customerGroupSize = customerGroup.size; customerGroupSize <= freeTableSeatsArray.length; customerGroupSize++) {
-            Table table;
             if (freeTableSeatsArray[customerGroupSize - 1].size() > 0
                     && (table = freeTableSeatsArray[customerGroupSize - 1].get(0)) != null) {
                 removeFreeTableSeats(customerGroupSize, table);
@@ -338,13 +357,11 @@ public class SeatingManager {
                 }
                 freeSeatsMap.put(table, customerGroupSize - customerGroup.size);
 
-//                addOccupiedTableSeats(customerGroup.size, table);
-
 //                seat the given customer group in a free table
                 seatedCustomerGroupMap.put(customerGroup, table);
-                return true;
+                break;
             }
         }
-        return false;
+        return table != null;
     }
 }
