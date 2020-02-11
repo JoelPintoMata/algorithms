@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/SeatingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/SeatingManager.java" afterDir="false" />
     </list>
@@ -330,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581374792694</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Code refactoring">
+      <created>1581411811674</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581411811674</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -374,10 +380,11 @@
     </state>
     <state x="810" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581324710195" />
     <state x="839" y="460" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/50.22.1870.1058@50.22.1870.1058" timestamp="1581408243653" />
-    <state x="306" y="137" key="CommitChangelistDialog2" timestamp="1581324929229">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="348" y="156" key="CommitChangelistDialog2" timestamp="1581411811262">
+      <screen x="50" y="22" width="1870" height="1058" />
     </state>
     <state x="306" y="137" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581324929229" />
+    <state x="348" y="156" key="CommitChangelistDialog2/50.22.1870.1058@50.22.1870.1058" timestamp="1581411811262" />
     <state width="588" height="480" key="DebuggerActiveHint" timestamp="1581410705496">
       <screen x="50" y="22" width="1870" height="1058" />
     </state>
@@ -423,10 +430,15 @@
     </state>
     <state width="1588" height="239" key="GridCell.Tab.1.right/50.22.1630.1028@50.22.1630.1028" timestamp="1581348118204" />
     <state width="1828" height="247" key="GridCell.Tab.1.right/50.22.1870.1058@50.22.1870.1058" timestamp="1581411798901" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1581324931395">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="595" y="296" key="Vcs.Push.Dialog.v2" timestamp="1581411813766">
+      <screen x="50" y="22" width="1870" height="1058" />
     </state>
     <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581324931395" />
+    <state x="595" y="296" key="Vcs.Push.Dialog.v2/50.22.1870.1058@50.22.1870.1058" timestamp="1581411813766" />
+    <state x="664" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1581411982532">
+      <screen x="50" y="22" width="1870" height="1058" />
+    </state>
+    <state x="664" y="383" key="com.intellij.ide.util.TipDialog/50.22.1870.1058@50.22.1870.1058" timestamp="1581411982532" />
     <state x="577" y="437" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581343770587">
       <screen x="50" y="22" width="1630" height="1028" />
     </state>
@@ -467,7 +479,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/real/m/seatingManager/SeatingManager.java</url>
-          <line>203</line>
+          <line>178</line>
           <option name="timeStamp" value="332" />
         </line-breakpoint>
       </breakpoints>
