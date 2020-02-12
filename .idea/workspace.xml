@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/SeatingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/SeatingManager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -344,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581445870089</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Code refactoring">
+      <created>1581458429334</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1581458429336</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
