@@ -4,9 +4,7 @@
     <list default="true" id="5f4ae493-8b49-478f-a201-2b03a7e6147e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/SeatingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/SeatingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/real/m/seatingManager/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +35,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/com/leetCode/LongestPalindromicSubsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/leetCode/PalindromicStrings.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/leetCode/LongestPalindromicSubsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/leetCode/FourSum.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1VrAmJWBAIWfRqevTlC9DcMXPys" />
@@ -65,10 +63,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/real/a" />
-      <recent name="$PROJECT_DIR$/src/com/leetCode" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company/real/m" />
+      <recent name="$PROJECT_DIR$/src/com/company/others" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.real.m.seatingManager" />
@@ -77,10 +74,23 @@
       <recent name="com.leetCode" />
       <recent name="com.fraudio" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/company/real/m" />
-      <recent name="$PROJECT_DIR$/src/com/company/others" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/real/a" />
+      <recent name="$PROJECT_DIR$/src/com/leetCode" />
+      <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.SeatingManager">
     <configuration name="SeatingManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -161,18 +171,6 @@
         <item itemvalue="Application.Something1" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
