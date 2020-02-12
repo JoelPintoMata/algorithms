@@ -1,20 +1,16 @@
 package com.company.real.m.seatingManager;
 
-public class Table {
+public class Table implements Comparable<Object> {
 
     public final int size; //number of chairs around this table
-    private int occupied; //number of chairs around this table
 
     public Table(int size) {
         this.size = size;
-        this.occupied = 0;
     }
 
-    public int getOccupied() {
-        return occupied;
-    }
-
-    public void setOccupied(int occupied) {
-        this.occupied = occupied;
+    @Override
+    public int compareTo(Object o) {
+        Table t = (Table) o;
+        return this.size - t.size;
     }
 }
