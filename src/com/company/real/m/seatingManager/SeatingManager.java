@@ -258,6 +258,43 @@ public class SeatingManager {
         Assertions.assertEquals(1, seatingManager.waitingCustomerGroupForTableSize());
     }
 
+    /**
+     * Retrieves the number of customer groups waiting for a table
+     *
+     * @Return waiting list size
+     */
+    private int waitingCustomerGroupForTableSize() {
+        return waitingCustomerGroupForTable.size();
+    }
+
+    /**
+     * Seats a customer group. We try to seat them in the smallest possible table,
+     * that way we try to leave bigger tables open for bigger waiting or arriving groups
+     *
+     * @param customerGroup a customer group
+     * @return true, if the customer group got seated, false if otherwise
+     */
+    private boolean seatCustomerGroup(CustomerGroup customerGroup) {
+        Table table = null;
+        for (int customerGroupSize = customerGroup.size; customerGroupSize <= freeTableSeatsArray.length; customerGroupSize++) {
+            if (freeTableSeatsArray[customerGroupSize - 1].size() > 0
+                    && (table = freeTableSeatsArray[customerGroupSize - 1].get(0)) != null) {
+                removeFreeTableSeats(customerGroupSize, table);
+
+                if (customerGroupSize - customerGroup.size > 0) {
+                    addFreeSeatsTable(customerGroupSize - customerGroup.size, table);
+                }
+                if (customerGroupSize - customerGroup.size >= 0) {
+                    freeSeatsMap.put(table, customerGroupSize - customerGroup.size);
+                }
+//                seat the given customer group in a free table
+                seatedCustomerGroupMap.put(customerGroup, table);
+                break;
+            }
+        }
+        return table != null;
+    }
+
     @Test
     private static void givenFullCapacity_thenFullCapacity() {
         List<Table> tables = new ArrayList<>();
@@ -310,14 +347,6 @@ public class SeatingManager {
         Assertions.assertNotNull(seatingManager.locate(customerGroup10));
     }
 
-    /**
-     * Retrieves the number of customer groups waiting for a table
-     * @Return waiting list size
-     */
-    private int waitingCustomerGroupForTableSize() {
-        return waitingCustomerGroupForTable.size();
-    }
-
     @Test
     private static void givenTooManyCustomerGroups_whenCustomerGroupLeave_thenWaitingCustomerGroup_is_seated() {
         List<Table> tables = new ArrayList<>();
@@ -341,32 +370,5 @@ public class SeatingManager {
         Assertions.assertNull(seatingManager.locate(customerGroup2));
         seatingManager.leaves(CustomerGroup1);
         Assertions.assertNotNull(seatingManager.locate(customerGroup2));
-    }
-
-    /**
-     * Seats a customer group. We try to seat them in the smallest possible table,
-     * that way we try to leave bigger tables open for bigger waiting or arriving groups
-     * @param customerGroup a customer group
-     * @return true, if the customer group got seated, false if otherwise
-     */
-    private boolean seatCustomerGroup(CustomerGroup customerGroup) {
-        Table table = null;
-        for (int customerGroupSize = customerGroup.size; customerGroupSize <= freeTableSeatsArray.length; customerGroupSize++) {
-            if (freeTableSeatsArray[customerGroupSize - 1].size() > 0
-                    && (table = freeTableSeatsArray[customerGroupSize - 1].get(0)) != null) {
-                removeFreeTableSeats(customerGroupSize, table);
-
-                if (customerGroupSize - customerGroup.size > 0) {
-                    addFreeSeatsTable(customerGroupSize - customerGroup.size, table);
-                }
-                if (customerGroupSize - customerGroup.size >= 0) {
-                    freeSeatsMap.put(table, customerGroupSize - customerGroup.size);
-                }
-//                seat the given customer group in a free table
-                seatedCustomerGroupMap.put(customerGroup, table);
-                break;
-            }
-        }
-        return table != null;
     }
 }

@@ -401,10 +401,11 @@
     </state>
     <state x="810" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581324710195" />
     <state x="839" y="460" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/50.22.1870.1058@50.22.1870.1058" timestamp="1581408243653" />
-    <state x="348" y="156" key="CommitChangelistDialog2" timestamp="1581411811262">
-      <screen x="50" y="22" width="1870" height="1058" />
+    <state x="310" y="152" key="CommitChangelistDialog2" timestamp="1581528191405">
+      <screen x="50" y="22" width="1630" height="1028" />
     </state>
     <state x="306" y="137" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581324929229" />
+    <state x="310" y="152" key="CommitChangelistDialog2/50.22.1630.1028@50.22.1630.1028" timestamp="1581528191405" />
     <state x="348" y="156" key="CommitChangelistDialog2/50.22.1870.1058@50.22.1870.1058" timestamp="1581411811262" />
     <state width="588" height="480" key="DebuggerActiveHint" timestamp="1581410705496">
       <screen x="50" y="22" width="1870" height="1058" />
@@ -451,10 +452,11 @@
     </state>
     <state width="1588" height="247" key="GridCell.Tab.1.right/50.22.1630.1028@50.22.1630.1028" timestamp="1581513739395" />
     <state width="1828" height="247" key="GridCell.Tab.1.right/50.22.1870.1058@50.22.1870.1058" timestamp="1581494720239" />
-    <state x="595" y="296" key="Vcs.Push.Dialog.v2" timestamp="1581411813766">
-      <screen x="50" y="22" width="1870" height="1058" />
+    <state x="525" y="288" key="Vcs.Push.Dialog.v2" timestamp="1581528194086">
+      <screen x="50" y="22" width="1630" height="1028" />
     </state>
     <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581324931395" />
+    <state x="525" y="288" key="Vcs.Push.Dialog.v2/50.22.1630.1028@50.22.1630.1028" timestamp="1581528194086" />
     <state x="595" y="296" key="Vcs.Push.Dialog.v2/50.22.1870.1058@50.22.1870.1058" timestamp="1581411813766" />
     <state x="664" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1581411982532">
       <screen x="50" y="22" width="1870" height="1058" />
